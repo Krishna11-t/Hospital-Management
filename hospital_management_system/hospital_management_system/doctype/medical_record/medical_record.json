@@ -1,0 +1,89 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-11-20 16:35:33.670451",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "record_id",
+  "patient",
+  "appointment",
+  "doctor",
+  "visit_date",
+  "symptoms",
+  "diagnosis",
+  "attachments"
+ ],
+ "fields": [
+  {
+   "fieldname": "record_id",
+   "fieldtype": "Int",
+   "label": "Record ID"
+  },
+  {
+   "fieldname": "patient",
+   "fieldtype": "Link",
+   "label": "Patient",
+   "options": "Patient"
+  },
+  {
+   "fieldname": "appointment",
+   "fieldtype": "Link",
+   "label": "Appointment",
+   "options": "Appointment"
+  },
+  {
+   "fieldname": "doctor",
+   "fieldtype": "Link",
+   "label": "Doctor",
+   "options": "Doctor"
+  },
+  {
+   "fieldname": "visit_date",
+   "fieldtype": "Date",
+   "label": "Visit Date"
+  },
+  {
+   "fieldname": "symptoms",
+   "fieldtype": "Long Text",
+   "label": "Symptoms"
+  },
+  {
+   "fieldname": "diagnosis",
+   "fieldtype": "Long Text",
+   "label": "Diagnosis"
+  },
+  {
+   "fieldname": "attachments",
+   "fieldtype": "Attach",
+   "label": "Attachments"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-11-25 11:04:17.060291",
+ "modified_by": "Administrator",
+ "module": "Hospital Management System",
+ "name": "Medical Record",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

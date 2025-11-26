@@ -1,0 +1,36 @@
+{
+ "attach_print": 0,
+ "channel": "Email",
+ "condition": "",
+ "condition_type": "Python",
+ "creation": "2025-11-21 16:46:35.238607",
+ "date_changed": "modified",
+ "datetime_changed": "creation",
+ "days_in_advance": 1,
+ "docstatus": 0,
+ "doctype": "Notification",
+ "document_type": "Appointment",
+ "enabled": 1,
+ "event": "Days Before",
+ "idx": 0,
+ "is_standard": 1,
+ "message": "Add your message here",
+ "message_type": "Markdown",
+ "minutes_offset": 10,
+ "modified": "2025-11-26 09:39:17.765892",
+ "modified_by": "Administrator",
+ "module": "Hospital Management System",
+ "name": "Appointment Remainder",
+ "owner": "Administrator",
+ "recipients": [
+  {
+   "receiver_by_document_field": "",
+   "receiver_by_role": "Hospital Management"
+  }
+ ],
+ "send_system_notification": 1,
+ "send_to_all_assignees": 0,
+ "sender": "Srikrishna1197",
+ "sender_email": "srikrishna1197@gmail.com",
+ "subject": "doc.status == \"Scheduled\" and doc.appointment_date == nowdate()"
+}

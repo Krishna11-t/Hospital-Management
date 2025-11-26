@@ -1,0 +1,80 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-11-20 13:52:48.962736",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "patient",
+  "doctor",
+  "appointment",
+  "medical_record",
+  "billing",
+  "pharmacy_inventory"
+ ],
+ "fields": [
+  {
+   "fieldname": "patient",
+   "fieldtype": "Link",
+   "label": "Patient",
+   "options": "Patient"
+  },
+  {
+   "fieldname": "doctor",
+   "fieldtype": "Link",
+   "label": "Doctor",
+   "options": "Doctor"
+  },
+  {
+   "fieldname": "appointment",
+   "fieldtype": "Link",
+   "label": "Appointment",
+   "options": "Appointment"
+  },
+  {
+   "fieldname": "medical_record",
+   "fieldtype": "Link",
+   "label": "Medical Record",
+   "options": "Medical Record"
+  },
+  {
+   "fieldname": "billing",
+   "fieldtype": "Link",
+   "label": "Billing",
+   "options": "Billing"
+  },
+  {
+   "fieldname": "pharmacy_inventory",
+   "fieldtype": "Link",
+   "label": "Pharmacy Inventory",
+   "options": "Pharmacy Inventory"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-11-25 11:02:04.452980",
+ "modified_by": "Administrator",
+ "module": "Hospital Management System",
+ "name": "Hospital Management System",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}
